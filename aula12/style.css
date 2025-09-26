@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(64, 64, 238);
+}
+header > h1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+main#conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section > label, input{
+    margin: 10px;;
+}
+
+main > section{
+    background-color: white;
+    width: 80vw;
+    min-height: 40vh;
+    height: auto;
+    margin: auto;
+    padding: 30px 5px 30px 5px;
+    border-radius: 7px;
+}
+div#res{
+    max-width: 600px;
+    width: 90%;
+    height: auto;
+    border-bottom: 7px;
+    background-color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
